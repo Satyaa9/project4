@@ -233,6 +233,7 @@ li{
     padding: 15px;
     border-radius: 8px;
     width: 220px;
+    height: 400px;
     text-align: left;
     overflow: hidden;
     display: flex;
@@ -289,7 +290,7 @@ li{
     background: #1abc9c;
   }
   
-  .hover .overlay {
+  .hover .overlay:hover {
     position: absolute;
     top: 0;
     left: 0;
@@ -303,6 +304,7 @@ li{
     justify-content: center;
     gap: 10px;
   }
+
   
   .overlay button {
     padding: 8px 16px;
@@ -331,3 +333,137 @@ li{
     cursor: pointer;
     margin-left: 41rem;
   }
+
+  /* room-section */
+
+  .rooms{
+    height: 95vh;
+   
+    /* border: 2px solid black; */
+    background-color: #FCF8F3;
+    display: flex;
+  }
+  .left-room{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+  
+  }
+  .heading-left{
+    /* border: 2px solid black; */
+    height: 30%;
+    width: 40%;
+  }
+
+  .button-in-room button{
+   
+      background-color: #A67926; 
+      color: white;              
+      border: none;              
+      padding: 12px 24px;        
+      font-size: 16px;           
+      font-weight: bold;         
+      cursor: pointer;           
+      border-radius: 4px; 
+      margin-top: 3rem;    
+  }
+  .inner-left-room{
+    margin-top: 15rem;
+    margin-left: 6rem;
+    font-size: 20px;
+    font-weight: 200px;
+  }
+  .right-room{
+    /* background-image: url(./Image\ 45.png); */
+    height: 35rem;
+    width: 23rem;
+    margin-top: 3.5rem;
+    margin-left: 7rem;
+  }
+
+  /* footer section */
+
+  .footer1{
+    height: 70vh;
+    /* border: 2px solid black; */
+    display: flex;
+    
+  
+  }
+  
+  .footer1-1{
+    height: 40vh;
+    /* border: 2px solid black; */
+    width: 25vw;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+  .footer1-1 p{
+    color: #9F9F9F;
+    padding-top: 3.5rem;
+  }
+
+  .footer1-2{
+    height: 45vh;
+    width: 25vw;
+    /* border: 2px solid black; */
+  }
+
+
+
+  .footer1-2-3 {
+    list-style: none;      
+    padding: 0;            
+    margin: 0;             
+  }
+  
+  .footer1-2-3 li a {
+    text-decoration: none; 
+    color: inherit;        
+  }
+  .link-foot{
+    color: #9F9F9F;
+  }
+
+  .footer1-4-2{
+    height: 45vh;
+    width: 25vw;
+    /* border: 2px solid black; */
+    list-style: none;
+  }
+  .footer1-4-2 li a{
+    text-decoration: none;
+    color: inherit;
+  }
+  .link-foot2{
+    color: #9F9F9F;
+  }
+  .footer1-5{
+    height: 45vh;
+    width: 25vw;
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+  }
+  .last-foot{
+    color: #9F9F9F;
+  }
+  .last-foot1{
+    margin-top: 3.8rem;
+  }
+
+  .stright-line{
+    width: 95%;
+    height: 20%;
+    border-bottom:1px solid palevioletred;
+    margin-left: 4rem;
+    
+  }
+  .full-last{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+  }
+
+
+
+
