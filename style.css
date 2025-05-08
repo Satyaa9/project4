@@ -6,7 +6,7 @@
 }
 
 .nav{
-    height: 20vh;
+    height: 15vh;
     /* border: 2px solid black; */
     display: flex;
    justify-content: space-between;
@@ -50,23 +50,12 @@ li{
  
     margin-left: 2rem;
 }
-/* .second-main{
-    height: 300;
-    border: 2px solid black;
-    background-image: url(./98fb219fa11f805aade2224f1d6658764a2395df.jpg);
-    object-fit: contain;
-} */
+
 .back-img{
     height: 100%;
     
 }
-/* .back-img{
-    background-image: url(./98fb219fa11f805aade2224f1d6658764a2395df.jpg);
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-} */
+
 .hero-section {
     background-image: url(./scandinavian-interior-mockup-wall-decal-background\ 1.png);
     background-size: cover;
@@ -95,8 +84,250 @@ li{
 }
 .head-in{
     padding: 1rem 0rem 1rem 0rem;
+    color: #B88E2F;
+    font-weight: 700px;
+    font-size: 25px;
+    /* line-height: 25px; */
 
 }
 .secon-para{
-    padding: 0rem 0rem 2rem 0rem
+    padding: 0rem 0rem 2rem 0rem;
+    font-size: 18px;
+    font-weight: 500px;
+    color: #333333;
+    letter-spacing: 0px;
 }
+.para-in{
+    font-size: 16px;
+    font-weight: 600px;
+    color: #333333;
+    letter-spacing: 3px;
+}
+.button-in{
+    height: 4rem;
+    width: 10rem;
+    /* background-color: #B88E2F; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: transparent; */
+    /* color: #FFFFFF; */
+}
+.button-in button {
+    background-color: #A67926; 
+    color: white;              
+    border: none;              
+    padding: 12px 24px;        
+    font-size: 16px;           
+    font-weight: bold;         
+    cursor: pointer;           
+    border-radius: 4px;        
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s ease; */
+}
+
+.button-in button:hover {
+    background-color: #8C661D; 
+}
+
+/* section3 */
+
+.range-sec{
+    height: 100vh;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    text-align: center;
+    
+}
+.third-main{
+    margin-top: 2rem;
+}
+.boxes-third1{
+    /* border: 2px solid black; */
+    height: 29rem;
+    width: 23rem;
+    background-image: url(./image\ 106.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+    
+
+}
+.boxes-third1 h4{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 9rem;
+    font-weight: 600px;
+    font-size: 18px;
+}
+
+.boxes-third2{
+    /* border: 2px solid black; */
+    height: 29rem;
+    width: 23rem;
+    background-image: url(./image\ 100.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.boxes-third2 h4{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 9rem;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.boxes-third3{
+    /* border: 2px solid black; */
+    height: 29rem;
+    width: 23rem;
+    background-image: url(./image\ 101.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+}
+.boxes-third3 h4{
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 9rem;
+    font-weight: 600px;
+    font-size: 18px;
+}
+.third-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.boxes-third1:hover{
+    transition: translateY(-2rem);
+}
+
+/* product-section */
+
+
+.products-section {
+    padding: 40px;
+  }
+  
+ .products-section h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-left: 40rem
+  }
+  
+  .product-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .product-card {
+    position: relative;
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    width: 220px;
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+    margin: 0 0 4px;
+  }
+  
+  .product-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 8px;
+  }
+  
+  .price {
+    font-size: 14px;
+  }
+  
+  .price .current {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .price .old {
+    text-decoration: line-through;
+    color: #bbb;
+    margin-left: 10px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    color: white;
+  }
+  
+  .badge.discount {
+    background: #f67280;
+  }
+  
+  .badge.new {
+    background: #1abc9c;
+  }
+  
+  .hover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .overlay button {
+    padding: 8px 16px;
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .overlay .actions span {
+    font-size: 12px;
+    margin: 0 6px;
+  }
+  
+  .show-more {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: none;
+    width: 15rem;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    color: #d4af37;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 41rem;
+  }
